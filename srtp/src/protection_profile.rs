@@ -15,7 +15,7 @@ impl ProtectionProfile {
             ProtectionProfile::Aes128CmHmacSha1_32
             | ProtectionProfile::Aes128CmHmacSha1_80
             | ProtectionProfile::AeadAes128Gcm => 16,
-            ProtectionProfile::AeadAes256Gcm => 32,
+            ProtectionProfile::AeadAes256Gcm => 16,
         }
     }
 
